@@ -1,0 +1,82 @@
+.container{
+  width: 350px;
+  flex-shrink: 0;
+  background-color: rgba(21, 38, 63, 1);
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+}
+.Equilibrium{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.title{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: white;
+  margin-top: 24px;
+}
+
+.text{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  color: rgba(139, 172, 217, 1);
+  margin-top: 16px;
+}
+
+.info-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  border-bottom: 1px solid rgba(46, 64, 90, 1);
+  padding-bottom: 24px;
+  margin-bottom: 16px;
+}
+.info-container div{
+  display: flex;
+  align-items: center;
+  gap: 6.5px;
+}
+
+.info-container div span{
+  font-size: 16px;
+  line-height: 20.16px;
+}
+
+.eth span{
+  color: cyan;
+  font-weight: 600;
+}
+
+.clock span{
+  color: rgba(139, 172, 217, 1);
+  font-weight: 400;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.bottom img{
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.bottom p{
+  color: rgba(139, 172, 217, 1);
+}
+
+.bottom p span{
+  color: white;
+  margin-left: 3px;
+}
+
