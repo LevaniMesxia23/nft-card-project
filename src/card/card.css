@@ -5,9 +5,41 @@
   border-radius: 15px;
   padding: 24px 24px 32px;
 }
+.box{
+  position: relative;
+}
 .Equilibrium{
   width: 100%;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.hover-color{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+}
+.hover-color:hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 255, 248, 0.5);
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 1;
 }
 
 .title{
@@ -17,6 +49,10 @@
   line-height: normal;
   color: white;
   margin-top: 24px;
+}
+.title:hover{
+  color: rgba(0, 255, 248, 1);
+  cursor: pointer;
 }
 
 .text{
@@ -53,6 +89,7 @@
   font-weight: 600;
 }
 
+
 .clock span{
   color: rgba(139, 172, 217, 1);
   font-weight: 400;
@@ -78,5 +115,9 @@
 .bottom p span{
   color: white;
   margin-left: 3px;
+}
+.bottom span:hover{
+  color: rgba(0, 255, 248, 1);
+  cursor: pointer;
 }
 
